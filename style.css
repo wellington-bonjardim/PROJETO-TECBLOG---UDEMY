@@ -1,0 +1,145 @@
+/* =============== RESET ===============*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 1em;
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+    background: white;
+}
+
+/* =============== LINKS ===============*/
+a {
+    text-decoration: none;
+}
+
+a:link,
+a:visited {
+    color: #f7b600;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* =============== HEADER ===============*/
+#header a:link,
+#header a:visited {
+    color: white;
+    padding: 8px 12px;
+}
+
+#header a:hover {
+    background: white;
+    color: #f7b600 ;
+    text-decoration: none;
+    transition: background 0.8s;
+    box-shadow: 0px 0px 12px #CCC;
+}
+
+#header {
+    background-color: #f7b600;
+    padding: 15px;
+    text-align: center;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+} /*HEADER FIXO!!!*/
+
+#header #menu, 
+h1 { 
+    padding: 10px;
+}
+
+#header h1 {
+    color: #4e4e4e;
+    font-size: 2.5em;
+}
+
+#header .h1-blog-color {
+    color: white;
+}
+
+/* =============== MAIN ===============*/
+#main {
+    width: 920px;
+    margin: 136px auto;
+} 
+
+.publi {
+    float: left;
+}
+.posts {
+    width: 660px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.posts h2 {
+    color: #f7b600;
+}
+
+.posts .data-post {
+    font-size: 0.8em;
+    border-bottom: 1px solid #f4f4f4;
+}
+.posts .img {
+    margin-top: 20px;
+}
+
+.publi .posts .p-left {
+    margin: 20px 0px;
+    text-align: justify;
+}
+
+/* =============== MENU-RIGHT ===============*/
+
+#menu-right {
+    background: white;
+    width: 240px;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    float: right;
+}
+
+h3 {
+    color: #565656;
+    background: #CCC;
+    padding: 5px;
+}
+
+.recent-posts {
+    margin-bottom: 50px;
+}
+
+#menu-right .recent-posts .side-text {
+    font-size: 0.8em;
+    padding: 5px;
+}
+
+.recent-posts .divider {
+    content: '';
+    border-bottom: 1px solid black;
+}
+
+/* =============== CATEGORIES ===============*/
+#categories .list {
+    list-style: none;
+}
+
+/* =============== FOOTER ===============*/
+footer {
+    clear: both;
+    padding: 15px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-weight: bold;
+    background: #CCC;
+    color: #565656
+}
